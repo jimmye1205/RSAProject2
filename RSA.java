@@ -10,9 +10,9 @@ public class RSA{
             File pri = new File("pri_key.txt");
 
             Scanner in = new Scanner(System.in);
-            BigInteger p =  new BigInteger(""+2);
-            BigInteger q = new BigInteger(""+2);
-            BigInteger e = new BigInteger(""+2);
+            BigInteger p =  new BigInteger("2");
+            BigInteger q = new BigInteger("2");
+            BigInteger e = new BigInteger("2");
             
             Random rng = new Random();
             
@@ -67,7 +67,7 @@ public class RSA{
                 
                 //double d = modinv(e,(p-1)*(q-1));
                 
-                BigInteger ex =p.add(new BigInteger(""+-1)).multiply(q.add(new BigInteger(""+-1)));
+                BigInteger ex =p.add(new BigInteger("-1")).multiply(q.add(new BigInteger("-1")));
                 
                 BigInteger d = e.modInverse(ex);
                 
