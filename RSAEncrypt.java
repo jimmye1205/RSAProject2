@@ -128,58 +128,58 @@ public class RSAEncrypt{
     		case "h": case "H":
     			output = "07";
     			break;
-    		case "i": case "8":
+    		case "i": case "I":
 				output = "08";
 				break;
-    		case "j": case "9":
+    		case "j": case "J":
     			output = "09";
     			break;
-    		case "k":
+    		case "k": case "K":
 				output = "10";
 				break;
-    		case "l":
+    		case "l": case "L":
     			output = "11";
     			break;
-    		case "m":
+    		case "m": case "M":
 				output = "12";
 				break;
-    		case "n":
+    		case "n": case "N":
     			output = "13";
     			break;
-    		case "o":
+    		case "o": case "O":
 				output = "14";
 				break;
-    		case "p":
+    		case "p": case "P":
     			output = "15";
     			break;
-    		case "q":
+    		case "q": case "Q":
 				output = "16";
 				break;
-    		case "r":
+    		case "r": case "R":
     			output = "17";
     			break;
-    		case "s":
+    		case "s": case "S":
 				output = "18";
 				break;
-    		case "t":
+    		case "t": case "T":
     			output = "19";
     			break;
-    		case "u":
+    		case "u": case "U":
 				output = "20";
 				break;
-    		case "v":
+    		case "v": case "V":
     			output = "21";
     			break;
-    		case "w":
+    		case "w": case "W":
 				output = "22";
 				break;
-    		case "x":
+    		case "x": case "X":
     			output = "23";
     			break;
-    		case "y":
+    		case "y": case "Y":
 				output = "24";
 				break;
-    		case "z":
+    		case "z": case "Z":
     			output = "25";
     			break;
     		case " ":
